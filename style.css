@@ -1,0 +1,74 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+main {
+  background-color: #121315;
+  color: white;
+  display: grid;
+  padding: 60px 200px;
+  justify-content: center;
+  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+  gap: 120px;
+}
+main section h1 {
+  margin-bottom: 20px;
+}
+main section p {
+  word-spacing: 8px;
+  color: #dadfe2;
+  line-height: 32px;
+  text-align: justify;
+}
+main section ul {
+  list-style: none;
+}
+main section ul li {
+  margin-top: 30px;
+  color: #dadfe2;
+}
+main section form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+main section form input {
+  height: 3rem;
+  padding-left: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+}
+main section form button {
+  height: 3rem;
+  width: 100%;
+  background-color: #1893f7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 950px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+    gap: 0px;
+    overflow: auto;
+  }
+  main section {
+    margin-bottom: 32px;
+  }
+}/*# sourceMappingURL=style.css.map */
