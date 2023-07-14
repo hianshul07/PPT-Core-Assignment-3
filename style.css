@@ -66,9 +66,12 @@ main section form button {
     flex-direction: column;
     padding: 40px 60px;
     gap: 0px;
-    overflow: auto;
+    overflow: hidden;
   }
   main section {
     margin-bottom: 32px;
+  }
+  main section ul li {
+    margin-top: 0%;
   }
 }/*# sourceMappingURL=style.css.map */

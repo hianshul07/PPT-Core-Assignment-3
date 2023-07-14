@@ -74,9 +74,15 @@ main {
 		flex-direction: column;
 		padding: 40px 60px;
 		gap: 0px;
-		overflow: auto;
+		overflow: hidden;
 		section {
 			margin-bottom: 32px;
+
+			ul {
+				li {
+          margin-top: 0%;
+				}
+			}
 		}
 	}
 }
